@@ -14,15 +14,15 @@ git clone https://github.com/iamsj7/android_device_cyanogen_msm8916-common -b du
 echo "Sync Complete"
 
 echo "Cloning needed msm8916 hals from du&Los-caf"
-rm -rf hardware/qcom/display/msm8916
-rm -rf hardware/qcom/audio/msm8916
-rm -rf hardware/qcom/media/msm8916
-git clone https://github.com/LineageOS/android_hardware_qcom_audio -b cm-14.1-caf-8916 hardware/qcom/audio/msm8916
-git clone https://github.com/LineageOS/android_hardware_qcom_display -b cm-14.1-caf-8916 hardware/qcom/display/msm8916
-git clone https://github.com/LineageOS/android_hardware_qcom_media -b cm-14.1-caf-8916 hardware/qcom/media/msm8916
+rm -rf hardware/qcom/display
+rm -rf hardware/qcom/audio
+rm -rf hardware/qcom/media/
+git clone https://github.com/LineageOS/android_hardware_qcom_audio -b cm-14.1-caf-8916 hardware/qcom/audio
+git clone https://github.com/LineageOS/android_hardware_qcom_display -b cm-14.1-caf-8916 hardware/qcom/display
+git clone https://github.com/LineageOS/android_hardware_qcom_media -b cm-14.1-caf-8916 hardware/qcom/media
 git clone https://github.com/DirtyUnicorns/android_system_qcom -b n7x-caf system/qcom
 git clone https://github.com/LineageOS/android_external_ant-wireless_antradio-library -b cm-14.1 external/ant-wireless/antradio-library
-git clone https://github.com/LineageOS/hardware_cyanogen -b cm-14.1 hardware/cyanogen
+git clone https://github.com/lineageos/android_hardware_cyanogen -b cm-14.1 hardware/cyanogen 
 echo "cloned needed hals from du&los successfully"
 
 echo "Writing compiletime script!!"
