@@ -7,7 +7,7 @@
 # Some User's Details. Please fill it with your own details.
 
 # Replace "legacy" with your own SSH Username in lowercase
-username=nikhil
+username=shaikjaleel270
 
 # Colors makes things beautiful
 export TERM=xterm
@@ -50,5 +50,5 @@ fi
 
 # Build ROM
 . build/envsetup.sh
-lunch aim_jalebi-userdebug
+lunch aicp_jalebi-userdebug
 make bacon -j8
