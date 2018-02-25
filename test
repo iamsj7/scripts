@@ -1,0 +1,6 @@
+echo "start"
+git clone https://github.com/AospExtended-Devices/android_vendor_yu -b lineage-15.1 vendor/yu
+git clone https://github.com/iamsj7/android_device_yu_jalebi-1 -b lineage-15.1 device/yu/jalebi
+git clone https://github.com/iamsj7/android_device_cyanogen_msm8916-common-1 -b lineage-15.1 device/cyanogen/msm8916-common
+git clone https://github.com/jalebioreo/android_kernel_cyanogen_msm8916 -b lineage-15.1 kernel/cyanogen/msm8916
+echo "khatam"
