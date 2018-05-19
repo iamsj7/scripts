@@ -29,7 +29,7 @@ export CCACHE_DIR=/home/ccache/$username
 prebuilts/misc/linux-x86/ccache/ccache -M 50G
 fi
 
-if [ "$use_ccache" = "clean" ];
+if [ "$use_ccache" = "yes" ];
 then
 export CCACHE_DIR=/home/ccache/$username
 ccache -C
