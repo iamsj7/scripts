@@ -15,25 +15,25 @@ echo "sed loyf"
 # LINEAGE TEMP-1 TREE
 if [ "$DEVICE_TREE" = "LINEAGE" ];
 then
-git clone https://github.com/iamsj7/android_device_yu_jalebi-1 -b temp-1 device/yu/jalebi
+git clone https://github.com/iamsj7/android_device_yu_jalebi -b temp-1 device/yu/jalebi
 fi
 
 # PIXEL EXPERIENCE DEVICE TREE
 if [ "$DEVICE_TREE" = "PE" ];
 then
-git clone https://github.com/iamsj7/android_device_yu_jalebi-1 -b PE device/yu/jalebi
+git clone https://github.com/iamsj7/android_device_yu_jalebi -b PE device/yu/jalebi
 fi
 
 # RR OREO DEVICE TREE
 if [ "$DEVICE_TREE" = "RR" ];
 then
-git clone https://github.com/iamsj7/android_device_yu_jalebi-1 -b RR-O device/yu/jalebi
+git clone https://github.com/iamsj7/android_device_yu_jalebi -b RR-O device/yu/jalebi
 fi
 
 # VALIDUS DEVICE TREE
 if [ "$DEVICE_TREE" = "VALIDUS" ];
 then
-git clone https://github.com/iamsj7/android_device_yu_jalebi-1 -b validus-8.1 device/yu/jalebi
+git clone https://github.com/iamsj7/android_device_yu_jalebi -b validus-8.1 device/yu/jalebi
 fi
 
 # AOSP EXTENDED DEVICE TREE
@@ -45,13 +45,13 @@ fi
 # LINEAGE COMMON
 if [ "$COMMON_TREE" = "LINEAGE" ];
 then
-git clone https://github.com/lineageos/android_device_cyanogen_msm8916-common-1 -b lineage-15.1 device/cyanogen/msm8916-common
+git clone https://github.com/lineageos/android_device_cyanogen_msm8916-common -b lineage-15.1 device/cyanogen/msm8916-common
 fi
 
 # AOSP COMMON (REMOVED ENFORCE RRO FRAMEWORKS)
 if [ "$COMMON_TREE" = "AOSP" ];
 then
-git clone https://github.com/iamsj7/android_device_cyanogen_msm8916-common-1 -b aosp-o device/cyanogen/msm8916-common
+git clone https://github.com/iamsj7/android_device_cyanogen_msm8916-common -b aosp-o device/cyanogen/msm8916-common
 fi
 
 # KERNEL SOURCE (LINEAGE OS)
