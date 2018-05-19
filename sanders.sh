@@ -5,6 +5,6 @@ git clone https://github.com/PixelExperience/packages_resources_MotoActions -b o
 git clone https://github.com/Keertesh19/kernel_motorola_msm8953 -b 8.1-ods kernel/motorola/msm8953
 git clone https://github.com/Keertesh19/prebuilts_gcc_linux-x86_aarch64_aarch64-linaro-7.2 -b master prebuilts/gcc/linux-x86/aarch64/aarch64-linaro-7.2
 echo "Device Trees Synced"
-echo "Syncing Hals"
+curl https://raw.githubusercontent.com/iamsj7/scripts/master/script_build.sh > build.sh
 echo "Good To Go"
 echo "Byeee"
