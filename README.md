@@ -1,6 +1,3 @@
-# scripts
-My Scripts For personal Use
+# SCRIPTS
 
-curl https://raw.githubusercontent.com/iamsj7/scripts/master/jalebi_oreo.sh > jalebi.sh
-
-source jalebi.sh
+LAZY GUYZ LIKE ME USES THIS xD
